@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+
+body {
+  padding-inline: 10%;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+
+
+}
+
+#header-btn {
+  background-color: transparent;
+  border: 2px solid #172339;
+  color:#172339 ;
+  transition: all 0.25s ease-in-out;
+}
+
+#header-btn:hover{
+    background-color: #172339;
+    color: #F3EDE7;
+    cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  gap: 40%;
+  height: 80vh;
+  align-items: center;
+  background-image: url("./images/image-hero-portrait.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.lead{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#hero-curve{
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+#hero-btn {
+  background-color: #172339;
+  color: #FAF8F6;
+  margin-right: auto;
+  transition: all .25s ease-in-out;
+}
+
+#hero-btn:hover {
+    background-image: linear-gradient(160deg, #a060ff 60%, #ffa84e);
+    border: none;
+    cursor: pointer;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.statistics h3{
+font-weight: bold;
+font-size: 4rem;
+color: #172339;
+}
+
+.statistics p{
+    color: #49566d;
+    font-size: 1.5rem;
+}
+
+
+h1{
+    font-weight: lighter;
+    font-size: 5.25rem;
+    color: #172339;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#hero-p{
+    font-size: 1.25rem;
+    color: #49566d;
+    width: 50%;
+    line-height: 1.5;
+}
+
+.about {
+    background-color: #172339;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10%;
+    color: #FAF8F6;
+    height: 60vh;
+}
+
+article {
+    width: 40%;
+    font-weight: lighter;
+}
+
+.man {
+    position: relative;
+    top: -10vh;
+    height: 80vh;
+}
+
+article h2 {
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+.quote {
+    margin-block: 2rem;
+    line-height: 1.5;
+    color: #F3EDE7;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    margin-top: .5rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height:10vh;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    gap: 2rem;
+}
+
+.social svg {
+    fill: #172339;
+    transition: all .25s ease-in-out;
+}
+
+.social svg:hover {
+    cursor: pointer;
+    fill: #49566d;
+}
