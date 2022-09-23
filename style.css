@@ -45,6 +45,8 @@ button {
   background-image: url("./images/image-hero-portrait.png");
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 5rem;
+  background-size: cover;
 }
 
 .lead {
